@@ -28,7 +28,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add ligeicon.json
+          git add a-bcdef.json
           if ! git diff --cached --quiet; then
             git commit -m "Update icon index"
             git push
