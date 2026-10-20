@@ -10,7 +10,7 @@ REPOSITORY = os.environ.get(
 BRANCH = os.environ.get("GITHUB_REF_NAME", "main")
 
 ROOT = Path(__file__).resolve().parent
-OUTPUT = ROOT / "ligeicon.json"
+OUTPUT = ROOT / "a-bcdef.json"
 
 IMAGE_EXTENSIONS = {
     ".png", ".jpg", ".jpeg", ".webp",
